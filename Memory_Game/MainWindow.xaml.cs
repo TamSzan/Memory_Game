@@ -34,6 +34,7 @@ namespace Memory_Game
         public MainWindow()
         {
             InitializeComponent();
+            Title = "Memory Game";
             ResizeMode = ResizeMode.NoResize;
             LoadBackground();
             LoadCardBG();
